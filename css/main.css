@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #fae0e0;
+  background: #322121;
+  margin:10px;
+}
+
+header {
+  display:block;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: 'Kumar One', cursive;
+  padding-top: 35px;
+  padding-left: 10px;
+}
+.name {
+  text-align: right;
+  /* float: right; */
+  margin-right:20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: arial;
+}
+h4 {
+  font-size: 18px;
+  font-family: arial;
+}
+hr {
+  border-top: 3px solid #7d97ad;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image{
+  padding: 1px;
+}
+.img-center{
+  margin: 70px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+/*media queries */
+
+@media only screen and (min-width: 0) and (max-width: 500px)  {
+    .logo {
+    font-size: 20px;
+    font-family: 'Kumar One', cursive;
+    padding-top: 25px;
+    }
+    h1 {
+      font-size: 24px;
+      font-family: arial;
+    }
+    .name {
+      text-align: right;
+      /* float: right; */
+      margin-right:8px;
+    }
+    h4{
+      font-size: 11px;
+    }
+    .img-center{
+      margin: 10px;
+    }
+  }
