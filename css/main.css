@@ -49,6 +49,12 @@ hr {
     left: auto;
     right: auto;
 }
+.imgres {
+  width:100%;
+}
+footer {
+  text-align: center;
+}
 /*media queries */
 
 @media only screen and (min-width: 0) and (max-width: 500px)  {
@@ -69,7 +75,50 @@ hr {
     h4{
       font-size: 11px;
     }
+    h3 {
+      margin-top:15px;
+    }
     .img-center{
-      margin: 10px;
+      margin: 0px;
+    }
+    .content-center {
+      padding: 2% 2% 0% 2%;
+    }
+    .container {
+      padding: 0px;
+    }
+    footer {
+      text-align: center;
+      font-size: 8px;
+      padding-top:5px;
+    }
+    a.link {
+      font-size: 10px;
     }
   }
+
+@media only screen and (min-width: 501px) and (max-width: 950px)  {
+    .content-center {
+      display:flex;
+      flex-wrap: wrap;
+      max-width: 100%
+    }
+  }
+
+@media only screen and (min-width: 951px)  {
+      .content-center {
+        max-width: 100%;
+        padding:2%
+      }
+      h3 {
+        padding:10px;
+        font-size: 30px;
+      }
+      figcaption {
+        font-size: 20px;
+        text-align: left;
+      }
+      a.link {
+        font-size: 17px;
+      }
+    }
