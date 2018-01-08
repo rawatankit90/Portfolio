@@ -7,19 +7,15 @@ body {
   margin: 10px;
 }
 
-header {
-  display: block;
-}
-
 .logo {
   font-size: 50px;
-  font-family: 'Kumar One', cursive;
+  font-family: "Kumar One", cursive;
   padding-top: 35px;
   padding-left: 10px;
 }
+
 .name {
   text-align: right;
-  /* float: right; */
   margin-right: 20px;
 }
 
@@ -27,6 +23,7 @@ h1 {
   font-size: 50px;
   font-family: arial;
 }
+
 h4 {
   font-size: 18px;
   font-family: arial;
@@ -40,6 +37,7 @@ hr {
 .image{
   padding: 1px;
 }
+
 .img-center{
   margin: 70px;
 }
@@ -49,12 +47,15 @@ hr {
     left: auto;
     right: auto;
 }
+
 .imgres {
   width:100%;
 }
+
 footer {
   text-align: center;
 }
+
 /*media queries */
 
 @media only screen and (min-width: 0) and (max-width: 500px)  {
@@ -69,7 +70,6 @@ footer {
     }
     .name {
       text-align: right;
-      /* float: right; */
       margin-right: 8px;
     }
     h4{
@@ -83,9 +83,6 @@ footer {
     }
     .content-center {
       padding: 2% 2% 0% 2%;
-    }
-    .container {
-      padding: 0;
     }
     footer {
       text-align: center;
@@ -101,7 +98,8 @@ footer {
     .content-center {
       display: flex;
       flex-wrap: wrap;
-      max-width: 100%
+      align-items: flex-start
+      /* min-width: 100%; */
     }
   }
 
